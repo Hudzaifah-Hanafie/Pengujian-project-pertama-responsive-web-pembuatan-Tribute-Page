@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Tribute Page</title>
 </head>
 <body>
     <main id="main">
         <h1 id="title">Yuan Longping</h1>
-        <p>Globally renowned agronomist & Father of hybrid rice</p>
+        <p id="honorific">Globally renowned agronomist & Father of hybrid rice</p>
         <div id="img-div">
             <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Yuan_Longping_in_1962.jpg" alt="">
-            <p id="img-caption">Yuan Longping in 1962.</p>
+            <div id="img-caption">
+                <p>Yuan Longping in 1962.</p>
+            </div>
         </div>
         <div id="tribute-info">
-            <h2>Here's a time line of Yuan Longping's life:</h2>
+            <h3 id="headline">Here's a time line of Yuan Longping's life:</h3>
             <ul>
                 <li><p id="year">1930 (Sep 7)</p><p id="event"> - Born at Peking Union Medical College Hospital in Beiping (now Beijing), China</p></li>
                 <li><p id="year">1949–1953</p><p id="event"> - Studied agronomy at Southwest Agricultural College (now Southwest University); graduated in 1953</p></li>
@@ -47,7 +50,7 @@
                 <p>"A few words will suffice to remark on Yuan's achievements: He helped the world fend off hunger" -- Hu Peisong, director-general of the China National Rice Research Institute</p>
             </div>
         </div>
-        <p id="link">If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Yuan_Longping" target="_blank">Wikipedia entry.</a></p>
+        <h3 id="link">If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Yuan_Longping" target="_blank">Wikipedia entry.</a></h3>
     </main>
 </body>
 </html>
